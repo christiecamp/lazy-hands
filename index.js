@@ -10,15 +10,15 @@ const input = require('./lib/input.js');
 
 //function to create logo
 function lazyLogo(output) {
-    const svg = logo(output); //user response for created logo
     fs.writeFile(fileName, svg, (err) => {
-        if (err) throw new Error(err);
-        console.log('Your SVG Logo Generated! Check it out in the sample folder!');
-        });
-    };
+    if (err) throw new Error(err);
+    console.log('Your SVG Logo Generated! Check it out in the sample folder!');
+    });
+};
 
 //function to initialize - init()
 function hands() {
+
     //message displayed at start of prompt
     console.log(`
     *********************
@@ -30,10 +30,10 @@ function hands() {
     inquirer
         .prompt(input) //user input
         .then((output) => {
-        lazyLogo(output); //svg logo (response)
+            lazyLogo(output); //svg logo (response)
         })
         .catch(err => {
-        console.log(err)
+            console.log(err)
          });
 };
 
