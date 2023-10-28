@@ -28,13 +28,13 @@ function hands() {
     `);
 
     inquirer
-    .prompt(input) //user input
-    .then((output) => {
+        .prompt(input) //user input
+        .then((output) => {
         lazyLogo(output); //svg logo (response)
-    })
-    .catch(err => {
+        })
+        .catch(err => {
         console.log(err)
-    });
+         });
 };
 
 hands();
