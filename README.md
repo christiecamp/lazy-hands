@@ -1,6 +1,9 @@
-#![banner](./assets/branding/header.png)
+![banner](./assets/branding/header.png)
 
-![badmath](https://img.shields.io/badge/mit-lightyellow)
+[![License: mit](https://img.shields.io/badge/License-mit-lightyellow)](https://opensource.org/licenses/MIT)
+[![Node.js Badge](https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=flat)](https://nodejs.org/en) 
+[![Jest Badge](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=fff&style=flat)](https://jestjs.io/)
+
 
 ### ![table-of-contents](./assets/branding/toc.png)
 
