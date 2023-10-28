@@ -1,6 +1,22 @@
 {
+  "name": "lazy-hands",
+  "description": "![banner](./assets/branding/header.png)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
   "devDependencies": {
     "inquirer": "^8.2.4",
     "jest": "^29.7.0"
-  }
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
 }
