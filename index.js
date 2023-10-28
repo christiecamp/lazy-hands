@@ -5,18 +5,32 @@ const jest = require('jest');
 const fs = require ('fs');
 
 //creating a seperate file for user input
-const input = require('./lib/input');
+const input = require('./lib/input.js');
 
 
 //function to create logo
-function lazyLogo(output) {};
+function lazyLogo(output) {
+    const svg = shape(output); //svg
+    fs.writeFile(fileName, svg, (err) => {
+        if (err) throw new Error(err);
+        console.log('Your SVG Logo Generated! Check it out in the sample folder!');
+        });
+    };
 
 //function to initialize - init()
 function hands() {
+    //message displayed at start of prompt
+    console.log(`
+    *********************
+    Welcome to LAZY HANDS
+    *SVG Logo Generator!*
+    *********************
+    `);
+
     inquirer
-    .prompt(input)
+    .prompt(input) //user input
     .then((output) => {
-        lazyLogo(output);
+        lazyLogo(output); //svg logo (response)
     })
     .catch(err => {
         console.log(err)
