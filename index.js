@@ -10,7 +10,7 @@ const input = require('./lib/input.js');
 
 //function to create logo
 function lazyLogo(output) {
-    const svg = shape(output); //svg
+    const svg = logo(output); //user response for created logo
     fs.writeFile(fileName, svg, (err) => {
         if (err) throw new Error(err);
         console.log('Your SVG Logo Generated! Check it out in the sample folder!');
