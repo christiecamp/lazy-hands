@@ -1,11 +1,12 @@
 const inquirer = require('inquirer');
 const jest = require('jest');
-
-//will apply 'fs' when creating the svg code 
 const fs = require ('fs');
 
-//creating a seperate file for user input
+//seperate file for user input
 const input = require('./lib/input.js');
+
+//seperate file for generating shape
+const logoShape = required('./lib/shapes/genShape.js');
 
 
 //function to create logo
