@@ -1,11 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require ('fs');
-
-//seperate file for user input
-const input = require('./lib/input.js');
-
 //seperate file for generating shape
 const logoShape = required('./lib/shapes/genShape.js');
+//seperate file for user input
+const input = require('./lib/input.js');
 
 
 //function to create logo
@@ -28,6 +26,7 @@ function hands() {
     *********************
     `);
 
+    //user prompts, logo creation, catch errors
     inquirer
         .prompt(input) //user input
         .then((output) => {
@@ -35,7 +34,7 @@ function hands() {
         })
         .catch(err => {
             console.log(err)
-         });
+        });
 };
 
 hands();
