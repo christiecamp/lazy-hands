@@ -1,15 +1,15 @@
 const inquirer = require('inquirer');
-//seperate file for generating shape
-const logoShape = required('./lib/shapes/genShape.js');
 const fs = require('fs');
-const svgPath = require('./example/logo.svg');
+const svgPath = "./example/logo.svg";
 //seperate file for user input
 const input = require('./lib/input.js');
+//seperate file for generating shape
+const logoShape = require('./lib/shapes/logoShape.js');
 
 
 //function to create logo
 function lazyLogo(output) {
-    const svg = logoShape (output); //generated shape - genShape.js
+    const svg = logoShape (output); //generated shape - logoShape.js
     fs.writeFile(svgPath, svg, (err) => {
     if (err) throw new Error(err);
     console.log('Your SVG Logo Generated! Check it out in the sample folder!');
