@@ -16,7 +16,7 @@ function lazyLogo(output) {
     });
 };
 
-//function to initialize - init()
+//function to initialize
 function hands() {
 
     //message displayed at start of prompt
