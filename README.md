@@ -52,7 +52,7 @@ The application was invoked using the following commands:
 
 The below screenshot demonstrates the command-line application and the resulting sample SVG file that is produced.
 
-![screenshot](./assets/)
+![screenshot](./assets/screenshot.png)
 
 ### ![demo](./assets/branding/12.png)
 ![demo](./assets/)
