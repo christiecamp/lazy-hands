@@ -89,10 +89,7 @@ The included demo demonstrates the command-line application and testing of the r
 
 ### ![testing](./assets/branding/14.png)
 
-Tested **render()** each shape class:
-  * circle
-  * square
-  * triangle
+Each shape class was tested for a **render() method** that returns a string for the corresponding SVG file with the given shape color.
 
 
 ### ![sources](./assets//branding/4.png)
