@@ -73,8 +73,13 @@ The below screenshot demonstrates the command-line application and the resulting
 
 ![screenshot](./assets/screenshot.png)
 
+
 ### ![demo](./assets/branding/12.png)
-![demo](./assets/)
+
+The included demo demonstrates the command-line application and testing of the resulting sample SVG file.
+
+![demo](./assets/screenshot.png)
+
 
 ### ![testing](./assets/branding/14.png)
 
@@ -96,9 +101,11 @@ Here's a list of technologies used:
 
 4. [Fullstack Blog Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) - for additional guidance on creating a video.
 
+
 ### ![license](./assets/branding/5.png)
 
  [MIT License](./LICENSE)
+
 
 ### ![links](./assets/branding/6.png)
 
