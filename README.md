@@ -78,7 +78,13 @@ The below screenshot demonstrates the command-line application and the resulting
 
 The included demo demonstrates the command-line application and testing of the resulting sample SVG file.
 
-![demo](./assets/screenshot.png)
+### Generating SVG
+
+![generatedemo](./assets/generate.gif)
+
+### Testing SVG
+
+![testdemo]()
 
 
 ### ![testing](./assets/branding/14.png)
@@ -113,7 +119,9 @@ Here's a list of technologies used:
 
 [Sample SVG](./example/shapes/circle.svg)
 
-[Video Walkthrough]()
+[Video Walkthrough - Generate SVG](https://www.loom.com/share/6543c5d1e5ae49c39c4e1bf686a4fc34?sid=0d38749e-4729-4b95-8413-5d3d3c0870f7)
+
+[Video Walkthrough - Testing SVG]()
 
 
 ## ![connect](./assets/branding/7.png)
