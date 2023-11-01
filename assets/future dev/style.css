@@ -1,0 +1,22 @@
+.header {
+    background-color: beige;
+}
+.logo {
+    flex: auto;
+    justify-content:center;
+    width: 100%;
+};
+
+.generated-logo {
+    flex:auto;
+    justify-content: center;
+};
+
+.body {
+    background-color: beige;
+};
+
+.footer {
+    flex:auto;
+    justify-content:center;
+}

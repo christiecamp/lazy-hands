@@ -14,6 +14,7 @@ function lazyLogo(output) {
             if (err) throw new Error(err);
                 console.log('Your SVG Logo Generated! Check it out in the sample folder!');
         });
+        //future dev - will have html page load as soon as SVG logo is created
         // fs.open(html, (err) => {
         //     if (err) throw new Error(err);
         //         console.log('Your SVG Logo can be viewed in your open browser!');
@@ -35,7 +36,7 @@ function hands() {
     inquirer
         .prompt(input) //user input
         .then((output) => {
-            console.log (output);
+            // console.log (output);
             lazyLogo(output); //svg logo (response)
         })
         .catch(err => {
