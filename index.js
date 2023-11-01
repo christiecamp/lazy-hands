@@ -31,6 +31,7 @@ function hands() {
     inquirer
         .prompt(input) //user input
         .then((output) => {
+            console.log (output);
             lazyLogo(output); //svg logo (response)
         })
         .catch(err => {
