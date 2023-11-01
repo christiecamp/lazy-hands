@@ -15,6 +15,7 @@
   - [USAGE](#usage)
     - [screenshot](#screenshot)
     - [demo](#demo)
+  - [TESTING](#testing)
   - [SOURCES](#sources)
   - [LICENSE](#license)
   - [LINKS](#links)
@@ -45,6 +46,7 @@ The application was invoked using the following commands:
 * npm init -y
 * npm i inquirer@8.2.4
 * npm i --save-dev jest
+* npm test
 
 
 ### ![usage](./assets/branding/3.png)
@@ -74,6 +76,13 @@ The below screenshot demonstrates the command-line application and the resulting
 ### ![demo](./assets/branding/12.png)
 ![demo](./assets/)
 
+### ![testing](./assets/branding/14.png)
+
+Tested **render()** each shape class:
+  * circle
+  * square
+  * triangle
+
 
 ### ![sources](./assets//branding/4.png)
 
@@ -89,19 +98,19 @@ Here's a list of technologies used:
 
 ### ![license](./assets/branding/5.png)
 
-### [MIT License](./LICENSE)
+ [MIT License](./LICENSE)
 
 ### ![links](./assets/branding/6.png)
 
-### [GitHub Repository](https://github.com/christiecamp/lazy-hands)
+[GitHub Repository](https://github.com/christiecamp/lazy-hands)
 
-### [Sample SVG](./example/shapes/circle.svg)
+[Sample SVG](./example/shapes/circle.svg)
 
-### [Video Walkthrough]()
+[Video Walkthrough]()
 
 
 ## ![connect](./assets/branding/7.png)
-   ### Questions? Connect with me at:</br>
-   ### GiHub: [christiecamp](https://github.com/christiecamp)</br>
-   ### Email: christiecamphoto@gmail.com</br></br>
+  Questions? Connect with me at:</br>
+  GiHub: [christiecamp](https://github.com/christiecamp)</br>
+  Email: christiecamphoto@gmail.com</br></br>
    <a href="https://www.christiecamp.com"><img height="250px" src ="./assets/branding/lazy-logo.png"></a>
