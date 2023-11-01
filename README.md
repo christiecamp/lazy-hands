@@ -34,19 +34,36 @@ This application dynamically generates a professional **SVG** logo and saves it 
 ![acceptance-criteria](./assets/branding/acceptance-criteria.png)
 
 ### ![lazy-list](./assets/branding/10.png)
-![lazy-list](./assets/branding/)
+![lazy-list](./assets/branding/lazylist.png)
 
 
 ### ![installation](./assets/branding/2.png)
 
-The application was invoked using the following commands: 
+The application was invoked using the following commands:
+
+* node index.js
+* npm init -y
+* npm i inquirer@8.2.4
+* npm i --save-dev jest
 
 
 ### ![usage](./assets/branding/3.png)
 
 **INSTRUCTIONS:**
 
-1.
+1. Open the Integrated Terminal and input - node index.
+2. Enter the text for your SVG with the required text character limit (3).
+3. Choose the format to pick the color for your text:
+    * by provided color keywords
+    * by inputting hexadecimal #
+3. Choose the shape of your logo
+    * circle
+    * square
+    * triangle
+4. Choose the format to pick the color for your text:
+    * by provided color keywords
+    * by inputting hexadecimal #
+
 
 ### ![screenshot](./assets/branding/11.png)
 
@@ -66,7 +83,7 @@ Here's a list of technologies used:
 
 2. [Inquirer]((https://www.npmjs.com/package/inquirer/v/8.2.4)) - the NPM package that provides an easy way to capture user input in your Node. js command line interface applications. 
 
-3. [Jest]()
+3. [Jest](https://jestjs.io/) - JavaScript testing framework used for testing.
 
 4. [Fullstack Blog Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) - for additional guidance on creating a video.
 
@@ -76,9 +93,9 @@ Here's a list of technologies used:
 
 ### ![links](./assets/branding/6.png)
 
-### [GitHub Repository](https://github.com/christiecamp/personal-slate)
+### [GitHub Repository](https://github.com/christiecamp/lazy-hands)
 
-### [Sample SVG](./example/logo.svg)
+### [Sample SVG](./example/shapes/circle.svg)
 
 ### [Video Walkthrough]()
 
